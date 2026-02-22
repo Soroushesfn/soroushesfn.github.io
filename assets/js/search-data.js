@@ -380,12 +380,10 @@ ninja.data = [{
             },},{id: "news-our-paper-sound-source-localization-in-a-3d-environment-has-been-accepted-to-icrom-2024",
           title: '🎉 Our paper, Sound Source Localization in a 3D Environment has been accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-have-joined-the-large-language-models-lab-at-the-tehran-institute-for-advanced-studies-as-an-intern-with-the-goal-of-designing-a-banchmark-focused-on-social-intelligence-in-llms",
+          title: 'I have joined the Large Language Models Lab at the Tehran Institute for...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
