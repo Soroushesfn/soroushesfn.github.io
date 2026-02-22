@@ -528,11 +528,18 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=7mLi8ZcAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://github.com/Soroushesfn", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/soroushesfn", "_blank");
         },
       },{
       id: 'light-theme',
