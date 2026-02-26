@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have joined the Large Language Models Lab at the Tehran Institute for Advanced Studies as an intern, with the goal of designing a banchmark focused on Social Intelligence in LLMs.
+I have joined the Large Language Models Lab at the [Tehran Institute for Advanced Studies](https://teias.institute/) as an intern, with the goal of designing a banchmark focused on Social Intelligence in LLMs.
