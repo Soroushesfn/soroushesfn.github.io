@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://soroushesfn.github.io/sitemap.xml
+Sitemap: https://soroushesfn.com/sitemap.xml
