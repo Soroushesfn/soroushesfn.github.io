@@ -2,6 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# a dummy comment
+
 title: Soroush Esfahanian # the website title (if blank, full name will be used instead)
 first_name: Soroush
 middle_name:
