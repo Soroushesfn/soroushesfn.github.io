@@ -1,0 +1,67 @@
+research:
+  - institution: EPFL
+    lab: NLP Lab
+    role: Research Intern
+    dates: Aug 2026–present
+    url: https://nlp.epfl.ch/
+    supervisor: "[Prof. Antoine Bosselut](https://atcbosselut.github.io/)"
+    description: >
+      Studying how distillation configurations shape reasoning and student behavior in language models.
+      My work compares rollout horizons, prefix sources, and KL directions through checkpoint evaluations,
+      and examines answer-format alignment, reasoning loops, and recovery during training.
+  - institution: TeIAS
+    lab: LLM Lab
+    role: Researcher
+    dates: Jun 2025–Jul 2026
+    url: https://teias.institute/
+    supervisor: "[Dr. Mohammad Taher Pilehvar](https://pilehvar.github.io/) and [Dr. Yadollah Yaghoobzadeh](https://yyaghoobzadeh.github.io/)"
+    description: >
+      Co-developed PerSo, a benchmark evaluating cognitive and behavioral social intelligence in LLMs
+      through real-world persuasion scenarios. Designed belief, emotion, intent, and persuasion-response
+      tasks, built the dataset with LLM-assisted generation and human validation, and evaluated
+      15 model configurations across five families.
+  - institution: University of Tehran
+    lab: Human and Robot Interaction Lab
+    role: Researcher
+    dates: 2024
+    url: https://taarlab.com/
+    supervisor: "[Dr. Mehdi Tale Masouleh](https://taarlab.com/)"
+    description: >
+      Developed learning-based 3D sound source localization using audio timing and spectral features.
+      Collected audio at 315 locations and evaluated multi-branch neural networks and region classifiers.
+      Published and presented the work at ICRoM 2024.
+publications:
+  - title: "PerSo: Evaluating Social Intelligence of LLMs Using Real-World Persuasion Scenarios"
+    year: 2026
+    status: Manuscript under review
+    authors: "A. Zamani*, **S. Esfahanian***, E. Sahabi, Y. Yaghoobzadeh, M. T. Pilehvar, A. Shakery"
+    note: "*Equal contribution."
+    description: A joint evaluation of mental-state inference and socially effective action through real-world persuasion.
+    links: []
+  - title: Sound Source Localization in a 3D Multi-Surface Environment Using Learning-Based Methods
+    year: 2024
+    status: ICRoM · IEEE · Oral presentation
+    authors: "**S. Esfahanian**, K. Rayati, M. Tale Masouleh"
+    description: Learning-based region classification reduced localization error from 28.4 to 23.4 cm and runtime from 29.8 to 0.71 seconds.
+    citation: 12th RSI International Conference on Robotics and Mechatronics, pp. 717–724.
+    links:
+      - label: DOI
+        url: https://doi.org/10.1109/ICRoM64545.2024.10903645
+      - label: Code
+        url: https://github.com/Soroushesfn/SSL-in-a-3D-Multi-Surface-Environment
+projects:
+  - title: NLP from first principles
+    description: Persian tokenizers, N-gram language models, text classifiers, and word embeddings implemented from scratch; a FastText–MLP news classifier.
+    url: https://github.com/Soroushesfn/NLP-UT
+  - title: Video category classification
+    description: An SQL-to-model pipeline combining sentence embeddings and engagement features in a multi-branch MLP.
+    url: https://github.com/Soroushesfn/Video-Category-Detection
+cv:
+  - label: General / Reasoning
+    file: Esfahanian_Soroush_CV.pdf
+  - label: Interpretability
+    file: Esfahanian_Soroush_CV_Interpretability.pdf
+  - label: Training
+    file: Esfahanian_Soroush_CV_Training.pdf
+  - label: Cognition
+    file: Esfahanian_Soroush_CV_Cognition.pdf

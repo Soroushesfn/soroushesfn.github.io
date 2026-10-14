@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper, [Sound Source Localization in a 3D Environment](https://ieeexplore.ieee.org/document/10903645/) has been accepted to ICRoM 2024!
+Our paper, [Sound Source Localization in a 3D Multi-Surface Environment Using Learning-Based Methods](https://doi.org/10.1109/ICRoM64545.2024.10903645), was accepted to ICRoM 2024.

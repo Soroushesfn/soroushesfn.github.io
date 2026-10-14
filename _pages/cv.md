@@ -1,12 +1,18 @@
 ---
-layout: cv
+layout: profile
 permalink: /cv/
-title: CV
+title: Curriculum Vitae
+description: Current academic CV of Soroush Esfahanian, with research-focused versions.
 nav: false
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+<div class="subpage">
+  <h1>Curriculum vitae</h1>
+  <p>Choose the version closest to your research focus. The experience and publications are identical across all four versions.</p>
+  <div class="cv-downloads">
+    {% for cv in site.data.homepage.cv %}
+      <a href="{{ cv.file | prepend: '/assets/pdf/' | relative_url }}" download>{{ cv.label }} <span class="file-label">PDF ↓</span></a>
+    {% endfor %}
+  </div>
+  <p>For a brief overview, see my <a href="{{ '/#research' | relative_url }}">research experience</a> and <a href="{{ '/#background' | relative_url }}">background</a>.</p>
+</div>

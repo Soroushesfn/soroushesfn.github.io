@@ -7,14 +7,15 @@ first_name: Soroush
 middle_name:
 last_name: Esfahanian
 contact_note: >
-  The best way to reach me is by Email - Don't hesitate to drop me a message!
+  For research enquiries, please contact Soroush.Esfahanian83@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computer Engineering student at University of Tehran
+  Soroush Esfahanian is a research intern at EPFL's NLP Lab and a final-year
+  Computer Engineering student at the University of Tehran, working on
+  language-model reasoning, distillation, and model cognition.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Soroush Esfahanian, NLP Researcher, LLM, LLM Benchmarking, University of Tehran, Computer Engineering # add your own keywords or leave empty
+keywords: Soroush Esfahanian, EPFL, NLP, LLM reasoning, distillation, mechanistic interpretability, model cognition, University of Tehran
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -128,25 +129,14 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
-
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Social
 # -----------------------------------------------------------------------------
 # socials:
-  # github_username: Soroushesfn
-  # linkedin: soroushesfn
+# github_username: Soroushesfn
+# linkedin: soroushesfn
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -193,6 +183,18 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  # Template examples are retained in source but are not part of this site.
+  - _posts/
+  - _projects/
+  - _books/
+  - _teachings/
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - assets/html/relativity.html
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -287,8 +289,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Esfahanian]
+  first_name: [Soroush, S.]
 
   style: apa
   locale: en
