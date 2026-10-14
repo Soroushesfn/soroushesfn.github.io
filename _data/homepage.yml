@@ -34,7 +34,7 @@ publications:
   - title: "PerSo: Evaluating Social Intelligence of LLMs Using Real-World Persuasion Scenarios"
     year: 2026
     status: Manuscript under review
-    authors: "A. Zamani*, **S. Esfahanian***, E. Sahabi, Y. Yaghoobzadeh, M. T. Pilehvar, A. Shakery"
+    authors: "A. Zamani<sup>*</sup>, **S. Esfahanian**<sup>*</sup>, E. Sahabi, Y. Yaghoobzadeh, M. T. Pilehvar, A. Shakery"
     note: "*Equal contribution."
     description: A joint evaluation of mental-state inference and socially effective action through real-world persuasion.
     links: []
