@@ -350,10 +350,6 @@ p + p {
   color: var(--ink);
   font-size: 12px;
 }
-html[data-theme="dark"] p a {
-  text-decoration: underline;
-  text-decoration-color: #91c5fb70;
-}
 .subpage {
   padding-block: 32px;
 }
