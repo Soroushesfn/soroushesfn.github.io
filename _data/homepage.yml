@@ -31,13 +31,15 @@ research:
       Collected audio at 315 locations and evaluated multi-branch neural networks and region classifiers.
       Published and presented the work at ICRoM 2024.
 publications:
-  - title: "PerSo: Evaluating Social Intelligence of LLMs Using Real-World Persuasion Scenarios"
+  - title: "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios"
     year: 2026
-    status: Manuscript under review
-    authors: "A. Zamani<sup>*</sup>, **S. Esfahanian**<sup>*</sup>, E. Sahabi, Y. Yaghoobzadeh, M. T. Pilehvar, A. Shakery"
+    status: arXiv preprint · Under review
+    authors: "A. Zamani<sup>*</sup>, **S. Esfahanian**<sup>*</sup>, E. Shahabi, M. T. Pilehvar, A. Shakery, Y. Yaghoobzadeh"
     note: "*Equal contribution."
     description: A joint evaluation of mental-state inference and socially effective action through real-world persuasion.
-    links: []
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2610.20548v1
   - title: Sound Source Localization in a 3D Multi-Surface Environment Using Learning-Based Methods
     year: 2024
     status: ICRoM · IEEE · Oral presentation
