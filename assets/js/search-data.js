@@ -21,7 +21,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-joined-the-nlp-lab-at-epfl-as-a-research-intern-through-summer-epfl-supervised-by-prof-antoine-bosselut-to-study-reasoning-and-distillation-in-language-models",
           title: 'I joined the NLP Lab at EPFL as a research intern through Summer@EPFL,...',
           description: "",
-          section: "News",},{id: "news-our-paper-perso-investigating-facets-of-llms-social-intelligence-in-real-world-persuasion-scenarios-is-now-available-on-arxiv-ali-zamani-and-i-contributed-equally",
+          section: "News",},{id: "news-our-paper-perso-investigating-facets-of-llms-social-intelligence-in-real-world-persuasion-scenarios-is-now-available-on-arxiv",
           title: 'Our paper PerSo: Investigating Facets of LLMs’ Social Intelligence in Real-World Persuasion Scenarios...',
           description: "",
           section: "News",},{
