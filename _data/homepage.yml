@@ -34,16 +34,18 @@ publications:
   - title: "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios"
     year: 2026
     status: arXiv preprint · Under review
-    authors: "A. Zamani<sup>*</sup>, **S. Esfahanian**<sup>*</sup>, E. Shahabi, M. T. Pilehvar, A. Shakery, Y. Yaghoobzadeh"
+    authors: "Ali Zamani<sup>*</sup>, **Soroush Esfahanian**<sup>*</sup>, Erfan Shahabi, Mohammad Taher Pilehvar, Azadeh Shakery, Yadollah Yaghoobzadeh"
     note: "*Equal contribution."
-    description: A joint evaluation of mental-state inference and socially effective action through real-world persuasion.
+    description: >
+      Evaluates whether LLMs can infer beliefs, emotions, and intentions and use that understanding
+      to act effectively in real-world persuasion scenarios, connecting cognitive and behavioral social intelligence.
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2610.20548v1
   - title: Sound Source Localization in a 3D Multi-Surface Environment Using Learning-Based Methods
     year: 2024
     status: ICRoM · IEEE · Oral presentation
-    authors: "**S. Esfahanian**, K. Rayati, M. Tale Masouleh"
+    authors: "**Soroush Esfahanian**, Keyhan Rayati, Mehdi Tale Masouleh"
     description: Learning-based region classification reduced localization error from 28.4 to 23.4 cm and runtime from 29.8 to 0.71 seconds.
     citation: 12th RSI International Conference on Robotics and Mechatronics, pp. 717–724.
     links:
@@ -58,12 +60,3 @@ projects:
   - title: Video category classification
     description: An SQL-to-model pipeline combining sentence embeddings and engagement features in a multi-branch MLP.
     url: https://github.com/Soroushesfn/Video-Category-Detection
-cv:
-  - label: General / Reasoning
-    file: Esfahanian_Soroush_CV.pdf
-  - label: Interpretability
-    file: Esfahanian_Soroush_CV_Interpretability.pdf
-  - label: Training
-    file: Esfahanian_Soroush_CV_Training.pdf
-  - label: Cognition
-    file: Esfahanian_Soroush_CV_Cognition.pdf

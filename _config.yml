@@ -11,7 +11,8 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Soroush Esfahanian is a research intern at EPFL's NLP Lab and a final-year
   Computer Engineering student at the University of Tehran, working on
-  language-model reasoning, distillation, and model cognition.
+  the mechanisms of language-model reasoning, how training shapes them,
+  and their relationship to human cognition.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

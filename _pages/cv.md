@@ -1,18 +1,20 @@
 ---
-layout: profile
+layout: null
 permalink: /cv/
 title: Curriculum Vitae
-description: Current academic CV of Soroush Esfahanian, with research-focused versions.
+description: Current academic CV of Soroush Esfahanian.
 nav: false
+sitemap: false
 ---
 
-<div class="subpage">
-  <h1>Curriculum vitae</h1>
-  <p>Choose the version closest to your research focus. The experience and publications are identical across all four versions.</p>
-  <div class="cv-downloads">
-    {% for cv in site.data.homepage.cv %}
-      <a href="{{ cv.file | prepend: '/assets/pdf/' | relative_url }}" download>{{ cv.label }} <span class="file-label">PDF ↓</span></a>
-    {% endfor %}
-  </div>
-  <p>For a brief overview, see my <a href="{{ '/#research' | relative_url }}">research experience</a> and <a href="{{ '/#background' | relative_url }}">background</a>.</p>
-</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ site.data.socials.cv_pdf | relative_url }}">
+    <link rel="canonical" href="{{ site.data.socials.cv_pdf | absolute_url }}">
+    <meta name="robots" content="noindex">
+    <title>CV · Soroush Esfahanian</title>
+  </head>
+  <body><p><a href="{{ site.data.socials.cv_pdf | relative_url }}">View CV (PDF)</a></p></body>
+</html>

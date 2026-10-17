@@ -1,0 +1,32 @@
+<ol class="publication-list">
+  {% for paper in site.data.homepage.publications %}
+    <li>
+      <article class="publication-entry">
+        <div class="publication-meta">
+          <span class="publication-year">{{ paper.year }}</span><span class="publication-status">{{ paper.status }}</span>
+        </div>
+        <h3>
+          <a href="{{ paper.links.first.url }}">{{ paper.title }}</a>
+        </h3>
+        <div class="authors">{{ paper.authors | markdownify }}</div>
+        {% if paper.citation %}
+          <p class="paper-venue">{{ paper.citation }}</p>
+        {% endif %}
+        <p class="paper-summary">{{ paper.description }}</p>
+        <div class="publication-footer">
+          <div class="inline-links" aria-label="Publication resources">
+            {% for link in paper.links -%}
+              <a href="{{ link.url }}">
+                {{- link.label }}
+                <span aria-hidden="true">↗</span></a
+              >
+            {%- endfor %}
+          </div>
+          {% if paper.note %}
+            <p class="paper-note">{{ paper.note }}</p>
+          {% endif %}
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ol>

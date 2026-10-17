@@ -14,36 +14,16 @@
 </section>
 <section class="section-block" id="publications" aria-labelledby="publications-title">
   <div class="section-label">
-    <h2 id="publications-title">Publications & manuscripts</h2>
+    <h2 id="publications-title">Publications</h2>
+    <p class="section-caption">Papers & manuscripts</p>
   </div>
   <div class="section-content">
-    {% for paper in site.data.homepage.publications %}
-      <article class="publication-entry">
-        <p class="publication-status">{{ paper.year }} / {{ paper.status }}</p>
-        <h3>{{ paper.title }}</h3>
-        <div class="authors">{{ paper.authors | markdownify }}</div>
-        {% if paper.note %}
-          <p class="paper-note">{{ paper.note }}</p>
-        {% endif %}
-        <p>{{ paper.description }}</p>
-        {% if paper.citation %}
-          <p class="paper-note">{{ paper.citation }}</p>
-        {% endif %}
-        <div class="inline-links">
-          {% for link in paper.links -%}
-            <a href="{{ link.url }}">
-              {{- link.label }}
-              <span aria-hidden="true">↗</span></a
-            >
-          {%- endfor %}
-        </div>
-      </article>
-    {% endfor %}
+    {% include profile-publications.liquid %}
   </div>
 </section>
 <section class="section-block" id="research" aria-labelledby="research-title">
   <div class="section-label">
-    <h2 id="research-title">Research</h2>
+    <h2 id="research-title">Research experience</h2>
   </div>
   <div class="section-content">
     {% for item in site.data.homepage.research %}
@@ -60,67 +40,13 @@
     {% endfor %}
   </div>
 </section>
-<section class="section-block" id="background" aria-labelledby="background-title">
-  <div class="section-label">
-    <h2 id="background-title">Background</h2>
-  </div>
-  <div class="section-content">
-    <article class="background-entry">
-      <h3>University of Tehran</h3>
-      <p>B.Sc. in Computer Engineering · expected February 2027</p>
-      <p class="entry-meta">GPA 18.97/20 · Rank 4/120</p>
-    </article>
-    <div class="background-grid">
-      <div>
-        <h3>Teaching & service</h3>
-        <p>Teaching assistant at the University of Tehran in data science, compilers, automata theory, and probability & statistics (2024–2026).</p>
-        <p>Managing editor of <em>Jaryan Quarterly Journal</em>, IEEE Chapter, University of Tehran.</p>
-      </div>
-      <div>
-        <h3>Honors</h3>
-        <p>Summer@EPFL, a competitive, fully funded research internship program (2026).</p>
-        <p>
-          Rank 16 in the Iran National Student Olympiad in Computer Science (2025); rank 75/150,000 in the national university entrance exam (2022).
-        </p>
-      </div>
-    </div>
-    <div class="project-list">
-      <h3>Languages</h3>
-      <p>English: Advanced, <strong>IELTS 8.5/9</strong> · French: DELF A1, 95/100 · Persian: native.</p>
-    </div>
-    <div class="project-list">
-      <h3>Selected course projects</h3>
-      {% for project in site.data.homepage.projects %}
-        <p>
-          <a href="{{ project.url }}">
-            {{- project.title }}
-            <span aria-hidden="true">↗</span></a
-          ><br>
-          {{ project.description }}
-        </p>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 <section class="section-block contact-block" id="contact" aria-labelledby="contact-title">
   <div class="section-label">
-    <h2 id="contact-title">CV & contact</h2>
+    <h2 id="contact-title">Contact</h2>
   </div>
   <div class="section-content">
-    <a class="email-link" href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a>
-    <p class="cv-caption">Download a CV tailored to your research focus. All versions share the same experience and publications.</p>
-    <div class="cv-downloads">
-      {% for cv in site.data.homepage.cv -%}
-        <a href="{{ cv.file | prepend: '/assets/pdf/' | relative_url }}" download>
-          {{- cv.label }}
-          <span class="file-label">PDF ↓</span></a
-        >
-      {%- endfor %}
-    </div>
-    <div class="inline-links contact-profiles">
-      <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar ↗</a
-      ><a href="https://github.com/{{ site.data.socials.github_username }}">GitHub ↗</a
-      ><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">LinkedIn ↗</a>
+    <div class="contact-profiles">
+      {% include profile-socials.liquid %}
     </div>
   </div>
 </section>
