@@ -42,7 +42,7 @@
       </nav>
       <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>Dark</button>
     </header>
-    <main id="main" class="shell">{{ content }}</main>
+    <main id="main" class="{% if page.url == '/' %}homepage{% else %}shell{% endif %}">{{ content }}</main>
     <footer class="site-footer shell">
       <span>© {{ site.time | date: '%Y' }} Soroush Esfahanian</span>
       <span>Built with Jekyll · <a href="https://github.com/Soroushesfn/soroushesfn.github.io">Source</a></span>

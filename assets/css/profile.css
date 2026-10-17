@@ -1,14 +1,16 @@
 :root {
   color-scheme: light;
-  --paper: #ffffff;
+  --paper: #fcfbf8;
+  --section-shade: #f3f1eb;
   --ink: #24292f;
   --muted: #59636e;
   --accent: #245681;
-  --line: #dfe3e7;
+  --line: #dfddd7;
 }
 html[data-theme="dark"] {
   color-scheme: dark;
   --paper: #181b20;
+  --section-shade: #20242a;
   --ink: #e6e9ed;
   --muted: #b5bdc7;
   --accent: #91b9dc;
@@ -107,9 +109,10 @@ p + p {
 }
 .hero {
   display: flow-root;
-  padding-block: 30px 8px;
+  padding-block: 30px 20px;
 }
 .hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: -0.5px;
@@ -122,9 +125,25 @@ p + p {
   margin-bottom: 18px;
 }
 .hero-copy > .intro {
-  font-size: 17px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
   line-height: 1.6;
-  font-weight: 500;
+  font-weight: 400;
+}
+.intro strong,
+.research-points strong {
+  font-weight: 600;
+}
+.research-points {
+  clear: both;
+  margin: 12px 0;
+  padding-left: 22px;
+}
+.research-points li + li {
+  margin-top: 4px;
+}
+.research-points li::marker {
+  color: var(--muted);
 }
 .portrait {
   float: right;
@@ -189,7 +208,11 @@ p + p {
   color: var(--muted);
 }
 .section-block {
-  padding-block: 20px 4px;
+  padding-block: 18px;
+}
+#news,
+#research {
+  background: var(--section-shade);
 }
 .section-label {
   margin-bottom: 12px;
@@ -197,7 +220,8 @@ p + p {
   border-bottom: 1px solid var(--line);
 }
 .section-label h2 {
-  font-size: 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px;
   font-weight: 500;
 }
 .section-content {
@@ -389,7 +413,7 @@ p + p {
   }
   .hero-copy > .intro {
     clear: both;
-    font-size: 16px;
+    font-size: 17px;
   }
   .section-label h2 {
     font-size: 21px;
