@@ -3,7 +3,8 @@
     <li>
       <article class="publication-entry">
         <div class="publication-meta">
-          <span class="publication-year">{{ paper.year }}</span><span class="publication-status">{{ paper.status }}</span>
+          <span class="publication-year">{{ paper.year }}</span><span aria-hidden="true">·</span
+          ><span class="publication-status">{{ paper.status }}</span>
         </div>
         <h3>
           <a href="{{ paper.links.first.url }}">{{ paper.title }}</a>
